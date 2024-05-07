@@ -1,0 +1,110 @@
+[
+    {
+        "date": "Aug 15, 2024",
+        "place": "Ball Arena",
+        "state": "Denver, CO"
+    },
+    {
+        "date": "Aug 16, 2024",
+        "place": "Ball Arena",
+        "state": "Denver, CO"
+    },{
+        "date": "Aug 18, 2024",
+        "place": "Delta Center",
+        "state": "Salt Lake City, UT"
+    },{
+        "date": "Aug 21, 2024",
+        "place": "Moda Center",
+        "state": "Portland, OR"
+    },{
+        "date": "Aug 22, 2024",
+        "place": "Climate Pledge Arena",
+        "state": "Seattle, WA"
+    },{
+        "date": "Aug 24, 2024",
+        "place": "Oakland, Arena",
+        "state": "Oakland, CA"
+    },{
+        "date": "Aug 25, 2024",
+        "place": "Golden 1 Center",
+        "state": "Sacramento, CA"
+    },{
+        "date": "Aug 27, 2024",
+        "place": "Intuit Dome",
+        "state": "Los Angeles, CA"
+    },
+    {
+        "date": "Aug 28, 2024",
+        "place": "Intuit Dome",
+        "state": "Los Angeles, CA"
+    },
+    {
+        "date": "Aug 30, 2024",
+        "place": "Footprint",
+        "state": "Phoenix, AZ"
+    },{
+        "date": "Sep 3, 2024",
+        "place": "Moody Center",
+        "state": "Austin, TX"
+    },{
+        "date": "Sep 4, 2024",
+        "place": "Toyota Center",
+        "state": "Houston, TX"
+    },{
+        "date": "Sep 10, 2024",
+        "place": "Gas South Arena",
+        "state": "Duluth, GA"
+    },{
+        "date": "Sep 11, 2024",
+        "place": "Kia Center",
+        "state": "Orlando, FL"
+    },{
+        "date": "Sep 13, 2024",
+        "place": "Pnc Arena",
+        "state": "Raleigh, NC"
+    },{
+        "date": "Sep 14, 2024",
+        "place": "Wells Fargo Center",
+        "state": "Philadelphia, PA"
+    },{
+        "date": "Sep 15, 2024",
+        "place": "Cfg Bank Arena",
+        "state": "Baltimore, MD"
+    },{
+        "date": "Sep 17, 2024",
+        "place": "Prudential Center",
+        "state": "Newark, NJ"
+    },{
+        "date": "Sep 18, 2024",
+        "place": "Barclays Center",
+        "state": "Brooklyn, NY"
+    },{
+        "date": "Sep 20, 2024",
+        "place": "Td Garden",
+        "state": "Boston, MA"
+    },{
+        "date": "Sep 21, 2024",
+        "place": "Td Garden",
+        "state": "Boston, MA"
+    },{
+        "date": "Sep 25, 2024",
+        "place": "Bell Center",
+        "state": "Montreal, QC"
+    },{
+        "date": "Sep 27, 2024",
+        "place": "Scotiabank Arena",
+        "state": "Toronto, ON"
+    },{
+        "date": "Sep 29, 2024",
+        "place": "Little Caesars Arena",
+        "state": "Detroit, MI"
+    },{
+        "date": "Oct 1, 2024",
+        "place": "United Center",
+        "state": "Chicago, IL"
+    },{
+        "date": "Oct 2, 2024",
+        "place": "United Center",
+        "state": "Chicago, IL"
+    }
+]
