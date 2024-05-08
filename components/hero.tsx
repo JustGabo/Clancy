@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className="w-full lg:h-[15%] flex flex-col">
         <div className="w-full bg-[#C92F21] h-full items-center justify-center flex flex-col text-black uppercase">
-          <h1 className="font-black text-4xl md:text-5xl lg:text-7xl xl:text-8xl text-center py-4">
+          <h1 className="font-black text-4xl md:text-5xl lg:text-7xl  text-center py-4">
             The Clancy world tour
           </h1>
         </div>
