@@ -17,19 +17,10 @@ const Dates = () => {
 
   const filteredEvents = Events.filter((event) => event.place.includes(filter));
 
-  const deletingDuplicateValuesForSelect = Events.filter((event, index) => {
-    return Events.indexOf(event) === index;
-  });
-  // console.log(deletingDuplicateValuesForSelect)
-
   const uniqueEventPlaces = Events.filter(
     (event, index, self) =>
       index === self.findIndex((e) => e.place === event.place)
   );
-
-  useEffect(() => {
-    console.log(filter);
-  }, [filter]);
 
   return (
     <section
@@ -42,7 +33,7 @@ const Dates = () => {
           <h2 className="lg:px-2 lg:text-lg text-base">Filter dates</h2>
 
           <div className="lg:w-[20%] w-[40%]">
-            <Select value={filter} onValueChange={(value)=> setFilter(value)}>
+            <Select value={filter} onValueChange={(value) => setFilter(value)}>
               <SelectTrigger className="bg-black border-neutral-600">
                 <SelectValue placeholder={filter} />
               </SelectTrigger>

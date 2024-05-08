@@ -11,7 +11,7 @@ interface Props {
 
 const Header = ({ active }: Props) => {
   return (
-    <header className="bg-black/90 lg:px-9  px-4 z-50 fixed w-[100dvw]  flex items-center justify-between h-24">
+    <header className="bg-black/90 lg:px-7 xl:px-9  px-4 z-50 fixed w-[100dvw]  flex items-center justify-between h-24">
       <h2 className="bg-[#C92F21] font-black text-black text-sm px-3 py-1  -tracking-widest">
         TØP
       </h2>
