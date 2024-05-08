@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="bg-black text-white relative  w-full">
       <Header active="home" />
-      <section className="flex flex-col gap-10">
+      <section className="flex flex-col lg:gap-20 gap-10">
         <Hero />
         <Counter/>
         <UpcomingTour />

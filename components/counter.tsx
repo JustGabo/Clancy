@@ -107,18 +107,18 @@ const Counter = () => {
         </article> */}
 
         <article className="text-center">
-          <h2 className="uppercase  font-bold text-4xl lg:text-7xl xl:text-8xl">
+          <h2 className="uppercase  font-bold text-4xl lg:text-7xl">
             New Album Coming Soon<span className="text-[#C92F21]">.</span>
           </h2>
         </article>
         <article className="flex items-center gap-5">
           <div className="flex flex-col lg:w-32 w-16  items-center gap-2">
             <div className=" w-full relative">
-              <p className="lg:text-6xl xl:text-7xl text-3xl font-bold text-center text-gray-400">
+              <p className="lg:text-7xl  text-3xl font-bold text-center text-gray-400">
                 {days < 10 && 0}
                 {days}
               </p>
-              <span className="absolute -right-3 top-0 lg:text-6xl text-3xl text-gray-400">
+              <span className="absolute -right-3 top-0 lg:text-7xl text-3xl text-gray-400">
                 :
               </span>
             </div>
@@ -126,11 +126,11 @@ const Counter = () => {
           </div>
           <div className="flex flex-col lg:w-32 w-16 items-center gap-2">
             <div className=" w-full relative">
-              <p className="lg:text-6xl xl:text-7xl text-3xl font-bold text-center text-gray-400">
+              <p className="lg:text-7xl  text-3xl font-bold text-center text-gray-400">
                 {hours < 10 && 0}
                 {hours}
               </p>
-              <span className="absolute -right-3 top-0 lg:text-6xl text-3xl text-gray-400">
+              <span className="absolute -right-3 top-0 lg:text-7xl text-3xl text-gray-400">
                 :
               </span>
             </div>
@@ -138,11 +138,11 @@ const Counter = () => {
           </div>
           <div className="flex flex-col lg:w-32 w-16 items-center gap-2">
             <div className=" w-full text-center relative">
-              <p className="lg:text-6xl xl:text-7xl text-3xl font-bold text-gray-400">
+              <p className="lg:text-7xl  text-3xl font-bold text-gray-400">
                 {minutes < 10 && 0}
                 {minutes}
               </p>
-              <span className="absolute -right-3 top-0 lg:text-6xl text-3xl text-gray-400">
+              <span className="absolute -right-3 top-0 lg:text-7xl text-3xl text-gray-400">
                 :
               </span>
             </div>
@@ -150,7 +150,7 @@ const Counter = () => {
           </div>
           <div className="flex flex-col lg:w-32 w-16 items-center gap-2">
             <div className=" w-full relative text-center">
-              <p className="lg:text-6xl xl:text-7xl text-3xl font-bold text-gray-400">
+              <p className="lg:text-7xl  text-3xl font-bold text-gray-400">
                 {seconds < 10 && 0}
                 {seconds}
               </p>

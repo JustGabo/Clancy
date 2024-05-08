@@ -13,7 +13,7 @@ const UpcomingTourRight = () => {
         {Songs.map((song) => {
           return (
             <p
-              className="hover:text-[#C92F21] font-light h-8 transition duration-300 cursor-pointer"
+              className="hover:text-[#C92F21] font-light h-8 text-sm transition duration-300 cursor-pointer"
               key={song.name}
             >
               {song.name}
@@ -22,8 +22,8 @@ const UpcomingTourRight = () => {
         })}
       </ul>
       <div className="flex flex-col items-start gap-2">
-        <p className="text-gray-400 select-none">This is a Pre-order</p>
-        <button className="uppercase transition duration-300 bg-[#c92121] hover:bg-[#c92121c3] text-black w-full font-black text-4xl h-20">
+        <p className="text-gray-400 select-none text-sm">This is a Pre-order</p>
+        <button className="uppercase transition duration-300 bg-[#c92121] hover:bg-[#c92121c3] text-black w-full font-black text-3xl h-20">
           <Link className="w-full h-full  flex items-center justify-center " target="_blank" href="https://link.seated.com/e0987753-a6bb-41b3-8bbe-d08b642efddc">
             get your ticket
           </Link>

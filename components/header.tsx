@@ -11,11 +11,11 @@ interface Props {
 
 const Header = ({ active }: Props) => {
   return (
-    <header className="bg-black/90 lg:px-7 xl:px-9  px-4 z-50 fixed w-[100dvw]  flex items-center justify-between h-24">
+    <header className="bg-black/90 lg:px-8  px-4 z-50 fixed w-[100dvw]  flex items-center justify-between h-24">
       <h2 className="bg-[#C92F21] font-black text-black text-sm px-3 py-1  -tracking-widest">
         TØP
       </h2>
-      <ul className="items-center hidden lg:flex w-[25%]  text-white  text-sm justify-between">
+      <ul className="items-center hidden lg:flex w-[25%]  text-white  text-xs justify-between">
         <li
           className={` ${
             active === "home"
@@ -83,7 +83,7 @@ const Header = ({ active }: Props) => {
         </div>
       </Sheet>
       <Link
-        className="flex items-center justify-center mr-4"
+        className="lg:flex items-center hidden  justify-center mr-4"
         target="_blank"
         href="https://link.seated.com/e0987753-a6bb-41b3-8bbe-d08b642efddc"
       >
